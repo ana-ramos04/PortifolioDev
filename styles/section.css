@@ -1,0 +1,107 @@
+#projects {
+    padding-block: 72px 56px;
+}
+
+.destaque {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.projectCard {
+    max-width: 1040px;
+    padding: 12px 12px 17px 12px;
+
+    img {
+        width: 100%;
+        justify-self: center;
+        border-radius: 8px;
+        margin-bottom: 20px;
+    }
+
+    figcaption {
+        margin: 4px;
+
+        span {
+            text-align: left;
+        }
+
+        p {
+            padding-top: 8px;
+        }
+    }
+}
+
+.tag-card {
+    display: grid;
+    border-radius: 12px;
+}
+
+#services {
+    padding: 88px 120px;
+
+    header {
+        margin-bottom: 56px;
+    }
+
+    #types {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 24px;
+    }
+
+    #devices {
+        width: 100%;
+        max-width: 280px;
+        padding: 20px;
+
+        div {
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+            margin-top: 20px;
+        }
+
+        #tag-devices path {
+            fill: var(--purple);
+        }
+    }
+
+    #hardDrives {
+        width: 100%;
+        max-width: 280px;
+        padding: 20px;
+
+        div {
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+            margin-top: 20px;
+        }
+
+        #tag-hardDrives path {
+            fill: var(--yellow);
+        }
+    }
+
+    #infinity {
+        width: 100%;
+        max-width: 280px;
+        padding: 20px;
+
+        div {
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+            margin-top: 20px;
+        }
+
+        #tag-infinity path {
+            fill: var(--green);
+        }
+    }
+}
