@@ -1,0 +1,73 @@
+.subtitle {
+    color: var(--gray-500);
+    font: var(--subtitle);
+}
+
+.title-lg {
+    font: var(--title-lg);
+}
+
+.title-sm {
+    font: var(--title-sm);
+}
+
+.title-md {
+    font: var(--title-md);
+}
+
+.text-sm {
+    font: var(--text-sm);
+}
+
+.text-md {
+    font: var(--text-md);
+}
+
+.bg-300 {
+    background-color: var(--gray-300);
+}
+
+.bg-200 {
+    background-color: var(--gray-200);
+}
+
+.bg-100 {
+    background-color: var(--gray-100);
+}
+
+.text-red {
+    color: var(--red);
+}
+
+.text-purple {
+    color: var(--purple);
+}
+
+.text-color-400 {
+    color: var(--gray-400);
+}
+
+.text-color-500 {
+    color: var(--gray-500);
+}
+
+.text-color-600 {
+    color: var(--gray-600);
+}
+
+.grid {
+    display: grid;
+}
+
+.grid-cols-3 {
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.gap-24 {
+    gap: 24px;
+}
+
+.border-2 {
+    border: 2px solid var(--gray-200);
+    border-radius: 12px;
+}
